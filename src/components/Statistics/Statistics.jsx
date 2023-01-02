@@ -1,4 +1,4 @@
-export const Statistics = ({ title, stats }) => {
+const Statistics = ({ title, stats }) => {
   return (
     <section class="statistics">
       <h2 class="title">{title && title}</h2>
@@ -13,3 +13,5 @@ export const Statistics = ({ title, stats }) => {
     </section>
   );
 };
+
+export default Statistics;

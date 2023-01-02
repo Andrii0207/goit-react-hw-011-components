@@ -1,4 +1,4 @@
-export const TransactionHistory = ({ items }) => {
+const TransactionHistory = ({ items }) => {
   return (
     <table class="transaction-history">
       {items.map(item => (
@@ -13,3 +13,5 @@ export const TransactionHistory = ({ items }) => {
     </table>
   );
 };
+
+export default TransactionHistory;
